@@ -1,5 +1,19 @@
 function [path] = constructPath(MATROW, FLYBYROW, mu)
 
+% this function construct path variable from MATROW (each row of MAT is a planetary sequence)
+% 
+% INPUT : 
+% - MATROW : row with planetary sequence
+% - FLYBYROW : row with flyby details for the given sequence
+% - mu : gravitational parameter
+% 
+% OUTPUT : 
+% - path : matrix containing all the info for a given planetary sequence
+%          - row 1 and cols 1:6     -> initial state at the departure
+%          - row 2:end and cols 1:6 -> incoming state at the planet encounter
+%          - row 1:end and cols 7   -> planetary sequence
+%          - row 1:end and cols 8   -> epochs of planetary encounters
+
 path = reshape(MATROW, 10, [])';
 
 FLYBY = [];
