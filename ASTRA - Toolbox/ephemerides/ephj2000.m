@@ -3,18 +3,18 @@ function [rr, vv, r, M, radPL, muPL] = ephj2000(pl, t)
 % circular coplanar ephemerides for the planets in MJD2000
 % 
 % INPUT : 
-% pl - planet ID (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)
-% t  - epoch MJD2000 (the reference one is January 1, 2000)
+% - pl : planet ID (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)
+% - t  : epoch MJD2000 (the reference one is January 1, 2000)
 % 
 % t is expressed in days from t0 = 0
 % 
 % OUTPUT :
-% rr    : planet position at time t
-% vv    : planet velocity at time t
-% r     : norm(rr)
-% M     : planet angular position at time t (0<= M <= 2*pi)
-% radPL : radius of the planet
-% muPL  : gravitational parameter of the planet
+% - rr    : planet position at time t
+% - vv    : planet velocity at time t
+% - r     : norm(rr)
+% - M     : planet angular position at time t (0<= M <= 2*pi)
+% - radPL : radius of the planet
+% - muPL  : gravitational parameter of the planet
 % -------------------------------------------------------------------------
 
 % constants of motion
