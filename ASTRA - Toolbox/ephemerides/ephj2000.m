@@ -3,7 +3,7 @@ function [rr, vv, r, M, radPL, muPL] = ephj2000(pl, t)
 % circular coplanar ephemerides for the planets in MJD2000
 % 
 % INPUT : 
-% - pl : planet ID (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune)
+% - pl : planet ID (1 - Mercury, 2 - Venus, 3 - Earth, 4 - Mars, 5 - Jupiter, 6 - Saturn, 7 - Uranus, 8 - Neptune)
 % - t  : epoch MJD2000 (the reference one is January 1, 2000)
 % 
 % t is expressed in days from t0 = 0
