@@ -12,7 +12,7 @@ function [rrOU, vvOU] = flyby_ciccopl(rrIN, vvIN, plIN, h, gam, mu)
 % 
 % OUTPUT : 
 % - rrOU : position vector of the outgoing leg at the planet (km)
-% - vvOU : velocity vector of the incoming leg at the planet (km)
+% - vvOU : velocity vector of the incoming leg at the planet (km/s)
 
 % TBR (Andrea) : check gamma angle
 
