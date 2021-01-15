@@ -5,6 +5,9 @@ function [DM] = meanAnDifference(M1, M2)
 % INPUT : 
 % - M1 : first anomaly (rad)
 % - M2 : second anomaly (rad)
+% 
+% OUTPUT : 
+% - DM : anomaly difference (rad)
 
 % TBR (Andrea) -> maybe letting DM to be negative would be beneficial for non linear solver
 
