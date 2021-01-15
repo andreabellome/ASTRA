@@ -12,7 +12,7 @@ function [rrOU, vvOU] = flyby_eph(rrIN, vvIN, plIN, tIN, h, gam)
 % 
 % OUTPUT : 
 % - rrOU : position vector of the outgoing leg at the planet (km)
-% - vvOU : velocity vector of the incoming leg at the planet (km)
+% - vvOU : velocity vector of the incoming leg at the planet (km/s)
 
 % TBR (Andrea) : check gamma angle
 % TBR (Andrea) : use this function or the circular coplanar one?
