@@ -47,7 +47,7 @@ for indpl = 1:length(planets)
     Struc1(:,pl).StateVector_ephj2000 = [rr2 vv2];
     Struc1(:,pl).Difference           = DRR;
     Struc1(:,pl).Difference_3Dnorm    = DR3D;
-    Struc1(:,pl).Difference_2Dnorm    = DR3D;
+    Struc1(:,pl).Difference_2Dnorm    = DR2D;
 
     figure;
     plot(tt, DR2D./1e6);
@@ -90,7 +90,7 @@ for indpl = 1:length(planets)
     Struc2(:,pl).StateVector_ephj2000 = [rr2 vv2];
     Struc2(:,pl).Difference           = DRR;
     Struc2(:,pl).Difference_3Dnorm    = DR3D;
-    Struc2(:,pl).Difference_2Dnorm    = DR3D;
+    Struc2(:,pl).Difference_2Dnorm    = DR2D;
 
     figure;
     plot(tt, DR2D./1e6);
