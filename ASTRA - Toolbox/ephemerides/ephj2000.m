@@ -4,17 +4,17 @@ function [rr, vv, r, M, radPL, muPL] = ephj2000(pl, t)
 % 
 % INPUT : 
 % - pl : planet ID (1 - Mercury, 2 - Venus, 3 - Earth, 4 - Mars, 5 - Jupiter, 6 - Saturn, 7 - Uranus, 8 - Neptune)
-% - t  : epoch MJD2000 (the reference one is January 1, 2000)
+% - t  : epoch (MJD2000 (the reference is January 1, 2000))
 % 
 % t is expressed in days from t0 = 0
 % 
 % OUTPUT :
-% - rr    : planet position at time t
-% - vv    : planet velocity at time t
-% - r     : norm(rr)
-% - M     : planet angular position at time t (0<= M <= 2*pi)
-% - radPL : radius of the planet
-% - muPL  : gravitational parameter of the planet
+% - rr    : planet position at time t (km)
+% - vv    : planet velocity at time t (km/s)
+% - r     : norm(rr) (km)
+% - M     : planet angular position at time t (0<= M <= 2*pi) (rad)
+% - radPL : radius of the planet (km)
+% - muPL  : gravitational parameter of the planet (km3/s2)
 % -------------------------------------------------------------------------
 
 % constants of motion
