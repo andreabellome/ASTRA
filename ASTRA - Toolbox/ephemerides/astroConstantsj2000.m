@@ -6,9 +6,9 @@ function [r, radPL, muPL] = astroConstantsj2000(pl)
 % - pl : planet ID (1 - Mercury, 2 - Venus, 3 - Earth, 4 - Mars, 5 - Jupiter, 6 - Saturn, 7 - Uranus, 8 - Neptune)
 %
 % OUTPUT :
-% - r     : planet heliocentric radius
-% - radPL : radius of the planet
-% - muPL  : gravitational parameter of the planet
+% - r     : planet heliocentric radius (km)
+% - radPL : radius of the planet (km)
+% - muPL  : gravitational parameter of the planet (km3/s2)
 % -------------------------------------------------------------------------
 
 % constants of motion
