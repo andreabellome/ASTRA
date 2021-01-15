@@ -13,6 +13,8 @@ function [path] = constructPath(MATROW, FLYBYROW, mu)
 %          - row 2:end and cols 1:6 -> incoming state at the planet encounter
 %          - row 1:end and cols 7   -> planetary sequence
 %          - row 1:end and cols 8   -> epochs of planetary encounters
+%          - row 2:end and cols 11  -> flyby inclinations
+%          - row 2:end and cols 12  -> flyby altitudes
 
 path = reshape(MATROW, 10, [])';
 
