@@ -1,0 +1,13 @@
+- READ ME -
+
+This folder contains:
+
+- 'MAIN_test_EPH.m' file used to compare ephemerides generation for major
+  planets of Solar System with three different methods (polynomials
+  evaluations, approximate keplerian elements and circular-coplanar model)
+- '.txt' files for Horizon ephemerides of major planets in June 2003 -
+  September 2015 timeframe
+- MATLAB '.m' functions needed to run 'MAIN_test_EPH.m' without getting any
+  error
+
+Enjoy! :D
